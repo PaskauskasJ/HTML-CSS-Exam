@@ -238,10 +238,9 @@ button.button:hover {
 }
 .bb4_right {
   display: flex;
-  height: 450px;
+  height: 467px;
   overflow: hidden;
-  /* align-content: flex-end; */
-  /* justify-content: center; */
+  align-self: flex-end;
 }
 .line {
   height: 2px;
@@ -426,23 +425,22 @@ ul {
   }
 
   .body_box_4 {
-    margin: 70px 80px 0px 80px;
+    margin: 0px 80px 0px 80px;
     display: flex;
     height: 554px;
   }
   .bb4_left {
     padding: unset;
     width: 620px;
-    margin: 50px 0px 50px 0px;
+    margin: 120px 0px 50px 0px;
     flex-grow: 0;
     flex-shrink: 0;
-    width: 50%;
+    width: 45%;
   }
   .bb4_right {
     justify-content: center;
-    align-items: flex-end;
     height: auto;
-    width: 50%;
+    width: 65%;
     overflow: visible;
   }
 
