@@ -15,6 +15,13 @@ h1 {
   color: #111111;
   font-weight: 900;
 }
+h2 {
+  margin: 43px 0px 0px 0px;
+  font-size: 56px;
+  color: #111111;
+  font-weight: 900;
+}
+
 h3 {
   margin: 0px;
   font-size: 40px;
@@ -31,6 +38,7 @@ h4 {
 }
 h5 {
   margin: 0px;
+  padding-top: 32px;
   font-size: 20px;
   color: #555555;
   font-weight: 400;
@@ -130,8 +138,9 @@ button.button:hover {
 .bb2_1 {
   padding: 122px 32px 0px 32px;
 }
-.bb2_2 {
+.bb2_2 h5 {
   padding: 20px 32px 0px 32px;
+  color: #111111;
 }
 .logos {
   padding: 50px 32px 0px 32px;
@@ -343,7 +352,7 @@ ul {
 
 @media screen and (min-width: 1280px) {
   h1 {
-    font-size: 56px;
+    font-size: 96px;
   }
   .wrapper {
     width: 1440px;
@@ -370,7 +379,8 @@ ul {
   }
 
   .body_box_1 {
-    padding: 80px;
+    padding: 0px 80px 0px 80px;
+    height: 700px;
     background-image: url(assets/assets/graphic.png);
     background-repeat: no-repeat;
     background-size: 600px;
@@ -384,18 +394,24 @@ ul {
   }
 
   .body_box_2 {
-    margin: 80px;
+    margin: 0px 80px 0px 80px;
     background-position: unset;
   }
 
   .bb2_1 {
-    padding: 120px 40px 0px 40px;
+    padding: 154px 40px 0px 40px;
   }
   .bb2_2 {
-    padding: 0px;
+    padding: 0;
+    color: #111111;
+  }
+  .bb2_2 h5 {
+    color: #111111;
+    padding: 32px 40px 0px 40px;
   }
 
   .logos {
+    margin-top: 120px;
     padding: 0px 80px 0px 80px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -412,7 +428,7 @@ ul {
     overflow: hidden;
   }
   .body_box_3 {
-    margin: 32px 80px 64px 80px;
+    margin: 120px 80px 64px 80px;
     padding: 0px;
     /* overflow: hidden; */
   }
