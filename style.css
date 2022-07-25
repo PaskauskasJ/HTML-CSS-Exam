@@ -47,6 +47,7 @@ h5 {
 
 .wrapper {
   display: flex;
+  margin: 0 auto;
   width: 428px;
   justify-content: center;
   height: auto;
